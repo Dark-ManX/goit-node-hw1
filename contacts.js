@@ -47,6 +47,8 @@ const add = async (name, email, phone) => {
   return newContact;
 };
 
+console.log("contactsPath", contactsPath);
+
 module.exports = {
   list,
   get,
